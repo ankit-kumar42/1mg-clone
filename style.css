@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 .header {
   height: 45px;
@@ -433,8 +432,6 @@ a {
 .vt-card img {
   margin: 0 auto;
   margin-bottom: 0.87rem;
-  /* height: 10rem;
-  width: 8.5rem; */
 }
 .vt-card p {
   padding: 0;
@@ -483,6 +480,163 @@ a {
   font-weight: 500;
   font-size: 0.8rem;
   background-color: white;
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 6rem;
+}
+.footer-head {
+  text-align: center;
+}
+.footer-cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-card {
+  width: 22rem;
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.429);
+  border-radius: 10px;
+}
+.footer-card img {
+  height: 4rem;
+  width: 4rem;
+}
+.footer-list {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list .list ul {
+  list-style: none;
+}
+
+.footer-list .list ul li {
+  padding: 0.5rem;
+  opacity: 0.7;
+}
+#list-head {
+  opacity: 1;
+  font-weight: bold;
+}
+.connect-handle {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect p {
+  font-weight: 400;
+  opacity: 0.7;
+}
+.connect .connect-head {
+  padding-top: 0.5rem;
+  opacity: 1;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.connect-handle a {
+  text-align: center;
+  border: 1px solid gray;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.881);
+  color: white;
+  border-radius: 3px;
+}
+.download-head {
+  padding-top: 0.5rem;
+  opacity: 1;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.download .button {
+  border: 1px solid gray;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  color: white;
+}
+.download .button div img {
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-right: 0.7rem;
+}
+.download .button div p {
+  font-size: 1.1rem;
+}
+#download-info {
+  font-size: 0.7rem;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.footer-info1 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info .footer-info1 {
+  height: 8.12rem;
+  width: 25.25rem;
+  /* border: 1px solid gray; */
+}
+.footer-info .footer-info1 div img {
+  height: 5rem;
+}
+.footer-info1 div {
+  margin-right: 1rem;
+}
+.footer-info1 div p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  line-height: 1.5rem;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.footer-logo-img img {
+  height: 7rem;
+}
+.footer-logo .content {
+  margin-top: 1rem;
+  opacity: 0.8;
+  margin-bottom: 5rem;
+}
+.know-more-footer i {
+  margin-left: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.543);
+  padding: 0.3rem;
+  height: 1.1rem;
+  color: rgb(255, 166, 0);
+
+  text-align: center;
+  border-radius: 50%;
+}
+.know-more-footer i .fa-angle-down {
+  text-align: center;
+  padding-top: 1rem;
+}
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
 @media (max-width: 767px) {
   .help,
